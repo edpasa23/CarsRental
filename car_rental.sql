@@ -2,3 +2,13 @@ DROP DATABASE IF EXISTS car_rental;
 CREATE DATABASE car_rental; 
 
 USE car_rental;
+
+CREATE TABLE client
+(
+ID_Client INT,
+Name_Client VARCHAR(45) NOT NULL,
+Last_Name VARCHAR(45) NOT NULL,
+City VARCHAR(45) NOT NULL,
+Phone_Number VARCHAR(10) NOT NULL,
+PRIMARY KEY(ID_Client)
+);
